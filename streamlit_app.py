@@ -10,7 +10,7 @@ model = joblib.load('model.joblib')
 image = Image.open('./image.png')
 
 # Display the image
-st.image(image, use_column_width=True)
+st.image(image)
 
 # Title of the app
 st.title("Medical Insurance Charges Prediction App")
